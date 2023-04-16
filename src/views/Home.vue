@@ -1,4 +1,7 @@
 <script setup lang="ts">
+import { useRouter } from "vue-router";
+
+const router = useRouter();
 
 </script>
 
@@ -14,14 +17,18 @@
           <h1 class="text-black-800 mb-8 text-4xl font-bold sm:text-5xl md:mb-12 md:text-6xl">Keita Kobayashi's Portfolio</h1>
 
           <div class="flex flex-col gap-2.5 sm:flex-row sm:justify-center lg:justify-start">
-            <a href="#" class="inline-block rounded-lg bg-indigo-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base">
-                <RouterLink v-bind:to="{name: 'Profile'}">Profile</RouterLink>
-            </a>
-
-            <a href="#" class="inline-block rounded-lg bg-gray-200 px-8 py-3 text-center text-sm font-semibold text-gray-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base">
-                <!-- <RouterLink v-bind:to="{name: 'Works'}">Works</RouterLink> -->
+            <button 
+              v-on:click="router.push('/profile')" 
+              class="inline-block rounded-lg bg-indigo-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base"
+            >
+              Profile
+            </button>
+            <button 
+                v-on:click="router.push('/works')" 
+                class="inline-block rounded-lg bg-indigo-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base"
+              >
                 Works
-            </a>
+              </button>
           </div>
         </div>
 
