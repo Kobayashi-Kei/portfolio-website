@@ -16,7 +16,7 @@
       <div class="grid gap-8 sm:grid-cols-2 sm:gap-12 lg:grid-cols-2 xl:grid-cols-2 xl:gap-16">
         <!-- article - start -->
         <div class="flex flex-col items-center gap-4 md:flex-row lg:gap-6">
-          <a href="#" class="group relative block h-56 w-full shrink-0 self-start overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-24 md:w-24 lg:h-40 lg:w-40">
+          <a href="https://www.anlp.jp/proceedings/annual_meeting/2022/pdf_dir/F4-2.pdf" class="group relative block h-56 w-full shrink-0 self-start overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-24 md:w-24 lg:h-40 lg:w-40">
             <img src="@/assets/nlp2022.png" loading="lazy" alt="Photo by Minh Pham" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
           </a>
 
@@ -30,7 +30,7 @@
             <p class="text-gray-500">小林恵大, 成松宏美, 小山康平, 堂坂浩二, 田盛大悟, 東中竜一郎, 南泰浩, 平博順. 学術論文における関連研究の執筆支援のためのタスク設計およびデータ構築. 言語処理学会第 27 回年次大会, 2022.</p>
 
             <div>
-              <a href="#" class="font-semibold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">Read more</a>
+              <a href="https://www.anlp.jp/proceedings/annual_meeting/2022/pdf_dir/F4-2.pdf" class="font-semibold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">Read more</a>
             </div>
           </div>
         </div>
@@ -38,7 +38,7 @@
 
         <!-- article - start -->
           <div class="flex flex-col items-center gap-4 md:flex-row lg:gap-6">
-            <a href="#" class="group relative block h-56 w-full shrink-0 self-start overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-24 md:w-24 lg:h-40 lg:w-40">
+            <a href="https://aclanthology.org/2022.lrec-1.609/" class="group relative block h-56 w-full shrink-0 self-start overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-24 md:w-24 lg:h-40 lg:w-40">
               <img src="@/assets/lrec2022.png" loading="lazy" alt="Photo by Minh Pham" class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
             </a>
 
@@ -52,7 +52,7 @@
               <p class="text-gray-500">Keita Kobayashi, Kohei Koyama, Hiromi Narimatsu, and Yasuhiro Minami. 2022. Dataset Construction for Scientific-Document Writing Support by Extracting Related Work Section and Citations from PDF Papers. In Proceedings of the Thirteenth Language Resources and Evaluation Conference, pages 5673–5682, Marseille, France. European Language Resources Association.</p>
 
               <div>
-                <a href="#" class="font-semibold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">Read more</a>
+                <a href="https://aclanthology.org/2022.lrec-1.609/" class="font-semibold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">Read more</a>
               </div>
             </div>
           </div>
