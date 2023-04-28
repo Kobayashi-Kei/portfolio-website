@@ -1,4 +1,4 @@
-# Keita Kobayashi Portfolio Website
+# My Portfolio Website
 
 Hello, my name is Keita Kobayashi and this is the source code for my portfolio website. This site is a collection of my works, skills, and researches in development.
 
