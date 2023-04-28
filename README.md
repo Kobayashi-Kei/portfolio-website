@@ -1,6 +1,6 @@
-# portfolio
+# Keita Kobayashi Portfolio Website
 
-This template should help get you started developing with Vue 3 in Vite.
+Hello, my name is Keita Kobayashi and this is the source code for my portfolio website. This site is a collection of my works, skills, and researches in development.
 
 ## Recommended IDE Setup
 
